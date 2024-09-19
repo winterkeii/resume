@@ -4,6 +4,9 @@
   .App {
     font-family: sans-serif;
     text-align: center;
+    padding: 100px;
+    padding-top: 0px;
+    background-color: #726E75;
   }
   
   .Resume {
@@ -58,11 +61,15 @@
     flex: 2;
     text-align: left;
     line-height: .3;
-    margin-left: 20px;
-    margin-top: 20px;
+    background-color: white;
   }
-  
+  .Experience h1, h3, h5{
+    margin-left: 20px;
+    margin-top: 40px;
+  }
+
   .Experience h3, h5{
+    
    font-weight: lighter;
   }
 
@@ -70,9 +77,15 @@
     margin-top: -5px;
   }
 
+  .Experience p {
+    margin-left: 20px;
+  }
+
   .Experience p p{
     display: list-item;
     list-style-position: inside;
     margin-left: 20px;
     line-height: 10px;
+    line-height: normal;
+    margin-left: 20px;
   }
