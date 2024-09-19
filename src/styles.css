@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+  }
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .Resume {
+    height: 1300px;
+    
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .Header {
+    border: 1px solid;
+    height: 150px;
+    background-color: #0B132B;
+    color: #f8f9fa;
+    
+  }
+  
+  .Header h1{
+    font-size: 50px;
+    margin-bottom: -10px;
+  }
+  .Content {
+    height: 1100px;
+    border: 1px solid black;
+    display: flex;
+    
+  }
+  
+  .Contact {
+    flex: 1;
+    lighting-color: aliceblue;
+    background-color: #70f1ef;
+    text-align: right;
+    line-height: .5;
+  }
+
+  .Contact h1{
+    margin-top: 40px;
+  }
+  .Contact ul,h1{
+    margin-right: 20px;
+  }
+  
+.Contact a:hover , .Contact a:hover{
+    color: #f8f9fa;
+    background-color: #B2E6D4;
+
+  }
+
+
+  .Experience {
+    flex: 2;
+    text-align: left;
+    line-height: .3;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  
+  .Experience h3, h5{
+   font-weight: lighter;
+  }
+
+  .Experience h5{
+    margin-top: -5px;
+  }
+
+  .Experience p p{
+    display: list-item;
+    list-style-position: inside;
+    margin-left: 20px;
+    line-height: 10px;
+  }
