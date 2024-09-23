@@ -4,9 +4,11 @@
   .App {
     font-family: sans-serif;
     text-align: center;
-    padding: 100px;
+    padding: 200px;
     padding-top: 0px;
-    background-color: #726E75;
+    background: linear-gradient(135deg, rgb(196, 158, 173), #39362d);
+  
+  
   }
   
   .Resume {
@@ -19,10 +21,12 @@
   .Header {
     border: 1px solid;
     height: 150px;
-    background-color: #0B132B;
+    background-color: #37383D;
     color: #f8f9fa;
     
   }
+
+  
   
   .Header h1{
     font-size: 50px;
@@ -38,7 +42,7 @@
   .Contact {
     flex: 1;
     lighting-color: aliceblue;
-    background-color: #70f1ef;
+    background-color: #EEE6E1;
     text-align: right;
     line-height: .5;
   }
